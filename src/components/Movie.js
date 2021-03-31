@@ -35,7 +35,7 @@ function Movie({ id, year, title, summary, poster, genres }) {
     );
 }
 
-Movie.prototype = {
+Movie.propTypes = {
     id: PropTypes.number.isRequired,
     year: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
